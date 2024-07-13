@@ -1123,7 +1123,6 @@ main .right{
 .contact .content .info address{
     color: var(--font-color);
 }
-
 @media (max-width:767px){
     .contact .content{
         flex-flow: column wrap;
@@ -1137,6 +1136,8 @@ main .right{
         text-align: center;
         display: flex;
         flex-flow: row wrap;
+        justify-content: space-between;
+        align-content: center;
     }
     .contact .content .info h4:first-of-type{
         padding: 0px;
@@ -1147,12 +1148,14 @@ main .right{
         padding: var(--main-padding) 0px 0px;
         flex-basis: 45%;
         order: 3;
+        font-size: 13px;
     }
     .contact .content .info .phone:last-of-type{
         padding: 0px;
         flex-basis: 45%;
         order: 5;
         margin-top: -40px ;
+        font-size: 13px;
     }
     .contact .content .info h4:last-of-type{
         padding: 0px;
@@ -1160,9 +1163,11 @@ main .right{
         order: 2;
     }
     .contact .content .info address{
-        padding: var(--main-padding) 0px 0px;
+        padding: var(--main-padding) 10px 0px;
         flex-basis: 45%;
         order: 4;
+        font-size: 13px;
+        text-align: start;
     }
     
 }
