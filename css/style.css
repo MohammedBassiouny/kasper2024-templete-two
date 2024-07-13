@@ -1059,7 +1059,12 @@ main .right{
     }
  
 }
-
+@media(max-width:767px){
+    .subscribe p{
+        max-width: 350px;
+    }
+ 
+}
 /* start subscribe */
 
 /* start contact */
