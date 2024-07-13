@@ -541,7 +541,6 @@ main .right{
     background-color: var(--main-color);
     color: white;
     padding: 10px var(--main-padding);
-    margin: auto;
     display: block;
     width: fit-content;
     margin: 30px auto;
@@ -813,7 +812,7 @@ main .right{
 
 /* start quota */
 .quota{
-    padding: var(--main-margin);
+    padding: var(--main-margin) 0px;
     position: relative;
     background-image: url(../images/stats.jpg);
     background-size:cover;
@@ -849,6 +848,14 @@ main .right{
     color: white;
     text-transform: capitalize;
 }
+
+@media (max-width:767px){
+    .quota q{
+        line-height: 1.5;
+        font-size: 14px;
+    }
+}
+
 /* End quota */
 
 /* start pricing */
