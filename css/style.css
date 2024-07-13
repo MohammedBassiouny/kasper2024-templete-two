@@ -457,6 +457,11 @@ main .right{
     .desgin .img{
         display: none;
     }
+     }
+    .desgin .text ul li{
+       font-size: 14px;
+    }
+}
 }
 /* End desgin */
 
@@ -990,13 +995,21 @@ main .right{
     align-items: center;
 }
 
+@media (max-width:767px){
+    .subscribe .container{
+        width: 100%;
+        padding: var(--main-margin) 0px;
+        grid-template-rows:auto;
+    }
+}
+
 .subscribe form{
     display: flex;
     position: relative;
 }
 
 .subscribe form input[type="email"]{
-    padding: var(--main-padding) 40px;
+    padding: var(--main-padding) 0px var(--main-padding) 40px;
     border: 1px solid white;
     border-right: none;
     caret-color: var(--main-color);
