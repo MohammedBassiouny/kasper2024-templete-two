@@ -999,10 +999,10 @@ main .right{
     .subscribe .container{
         width: 100%;
         padding: var(--main-margin) 0px;
-        grid-template-rows:auto;
+        justify-items:start;
+        padding-left: var(--main-padding);
     }
 }
-
 .subscribe form{
     display: flex;
     position: relative;
