@@ -1143,6 +1143,7 @@ main .right{
         padding: 0px;
         flex-basis: 45%;
         order: 1;
+        font-size: 14px;
     }
     .contact .content .info .phone:first-of-type{
         padding: var(--main-padding) 0px 0px;
@@ -1161,13 +1162,13 @@ main .right{
         padding: 0px;
         flex-basis: 45%;
         order: 2;
+        font-size: 14px;
     }
     .contact .content .info address{
         padding: var(--main-padding) 10px 0px;
         flex-basis: 45%;
         order: 4;
         font-size: 13px;
-        text-align: start;
     }
     
 }
