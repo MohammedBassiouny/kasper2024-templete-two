@@ -963,6 +963,13 @@ main .right{
     color: white;
 }
 
+@media(max-width:767px){
+    .pricing .contact-link{
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+}
+
 /* End pricing */
 
 /* start subscribe */
